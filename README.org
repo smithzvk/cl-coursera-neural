@@ -1,0 +1,19 @@
+
+A partial and minimal porting of the Coursera Machine Learning with Neural
+Networks to Common Lisp.  This is not exceptionally polished but there should
+always be an attempt to at least confirm the code written here against the
+provided Octave code and the [[https://github.com/davidandrzej/py-coursera-neural][Python port]].
+
+I decided not to do a line by line porting of the Octave or Python code to Lisp
+because, well that's just not how we Lispers do things.  It is cleaner in its
+current form, but harder to prove correct at a glance.  Also, I will be using
+some packages that I have been working on but are not officially released, such
+as the =zgnuplot= library.  I have been using this plotting library with
+in-house code for a long time, but it is still pretty rough around the edges and
+the interface is still in flux (hopefully headed towards something a bit
+better).  But whatever, it's out there, feel free to do what you will with it.
+
+Note to people that might fork this, the rules on Coursera (well, at least this
+course) is that you shouldn't post solutions.  So don't work off this repo, plug
+your solution into it, and publish it online.  You should probably work in a
+private branch that you don't publish to Github.
